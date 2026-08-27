@@ -4,6 +4,12 @@ Aplicativo Android educacional que demonstra práticas defensivas de segurança 
 
 ## Guia de instalação
 
+### Download direto
+
+[Baixar o APK](downloads/secure-game.apk)
+
+Abra esse link pelo celular, baixe o arquivo e toque nele para instalar.
+
 ### Baixar e instalar o APK
 
 1. Acesse o repositório: https://github.com/GuilhermeXweb/secure-game-android-app
