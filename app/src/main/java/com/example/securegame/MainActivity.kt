@@ -5,6 +5,7 @@ import android.graphics.Typeface
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -36,6 +37,11 @@ class MainActivity : AppCompatActivity() {
             setBackgroundColor(backgroundColor)
         }
 
+        root.addView(ImageView(this).apply {
+            setImageResource(R.drawable.ic_secure_game)
+            contentDescription = "Logo Secure Game"
+            layoutParams = LinearLayout.LayoutParams(64, 64).apply { bottomMargin = 18 }
+        })
         root.addView(TextView(this).apply {
             text = "SECURE GAME / LAB"
             textSize = 12f
